@@ -1,0 +1,30 @@
+---
+title: "Data_Science_test_Seedbox"
+author: "Matthew Wolf"
+date: '2022-04-24'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Seedbox A/B Testing: Different Cancellation Methods for Subscription Service
+
+In this analysis, we are going to examine the effect of forcing members of a subscription service to cancel by phone call and whether or not this has an impact on the probability of cancellations. Test subjects were split into two groups: the control group, who could cancel their subscriptions using a simple web form (control group = 0) and the test group, who could only cancel their subscriptions by calling in (test group = 1). 
+
+
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
